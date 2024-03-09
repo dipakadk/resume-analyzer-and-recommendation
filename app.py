@@ -79,7 +79,7 @@ def course_recommender(course_list):
 # database connection
 
 
-connection=pymysql.connect(host='localhost',user='root',password='123@123#$',db='resume')
+connection=pymysql.connect(host='localhost',user='root',password='',db='resume')
 cursor = connection.cursor()
 
 
